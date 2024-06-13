@@ -187,15 +187,16 @@ We will analyze complete data so descriptive analytics will be used here.
 K.P.I Dashboard , Monthly Renue Reports , Sales Leads Overview.
 
 Scenario(2) Scores of V.K. And what will he score in next match?
-We will do some average calculation of scorres and then we will predict the score for next innings. So here Predictive Analytics will be used here. 
+We will do some average calculation of scores and then we will predict the score for next innings. So here Predictive Analytics will be used here. 
 
 Scenario(1) What would be revenue in next quartile ?(Predictive Analytics )
 
-Scenario(3) V.K. Score- 58,56,68,75,67,0,1,0,0,1,1,0 suggestion given by Rahul Dravid will be based on prescreptive analytics.
+Scenario(3) V.K. Score- 58,56,68,75,67,0,1,0,0,1,1,0.
+Suggestion given by Rahul Dravid will be based on prescreptive analytics.
 
 
 
-**Descriptive Statistics**:- Describe the data. It is that parts of statistics which helps you to summerize(Describe) the data without adding or substracting anything to the data.
+**Descriptive Statistics**:- Describe the data. It is one of  that parts of statistics which helps you to summerize(Describe) the data without adding or substracting anything to the data.
 
 *Types of descriptive statistics* :-
 
@@ -206,6 +207,6 @@ Scenario(3) V.K. Score- 58,56,68,75,67,0,1,0,0,1,1,0 suggestion given by Rahul D
 *Measure of central tendency* :- Mean, median , mode
 Exp:- 1,2,3,4,5 mean-3 & 3,3,3,3,3 mean-3 but both are different.
 
-*Measure of spread(dispersion)* :- For D1 data is not concentric to a single point but for D2 it is concentric to single point3.
+*Measure of spread(dispersion)* :- For D1 data is not concentric to a single point but for D2, it is concentric to single point3.
 
-*Measures of symmetricity* :- If spread is same but symmetricity is different so we have skewness and kurtosis to analyze that.
+*Measures of symmetricity* :- If spread is same but symmetricity is different so we use skewness and kurtosis to analyze the data.
