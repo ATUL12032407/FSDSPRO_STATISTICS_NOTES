@@ -1,0 +1,211 @@
+Statistics & Mathematics :- What is statistics ?
+  Motivation 
+                   Types of statistics 
+                         |
+        |----------------|------------------------|
+   Descriptive                               Inferential 
+   Measure of Central Tendency           z-test 
+   Measure of Dispersion                 p-test, chi-test ,anova,t-test
+   Measure of symmetricity   
+   
+   
+   Before  moving  from descriptive statistics to inferential we need  to cover:-
+   
+   Mathematics 
+        |
+   ------------
+   Differentiation
+   Matrix
+   SOLE
+   Eigenvalue &Eigenvector
+   Probability
+   
+   
+   Ajay Idk anything about maths ? What I have to do extra effort need to do ?
+   Just be away from ur phone and conncentrate in the lecture.
+   
+   Make your own notes and third things what are important things for the interview i will take care of these things.
+   
+   Descriptive Statistics and Ineferential Statistics will be important for interviews.
+   Most important things what is my role ? The first thing is that structured concent and usecses in the industry and possible interview questions for these i will be here.
+   
+*Statistics*:- Statistics is a part of math which deals with collecting and analyzing data.
+    Formally we can say that Statistics is a mathematical science including methods of collecting,organizing and analyzing data in such a way that meaningful conclusion can be drawn from that.
+    
+*Data*:- Data is a piece of information that can be stored and retrived.
+
+*Virat Kohli*:- 0,50,101,51,1,2,0,1,0 scored in last few innings.
+
+What do you observe from this data?
+
+*Motivation of Statistics* :- 
+
+1. Weather Forecasting (Materology)
+2. Sports Analytics
+3. Election Campaign (IPAC =>Prashant Kishore)
+4. Political Analyst (IPAC =>)
+5. E-commerce/ FMCG 
+6. Medical/ Genitics 
+7. Collection/ Organization and conclusion from that data
+8. Stock Market
+
+                                                  Types of Statistics
+                                                         |
+           ----------------------------------------------------------------------------------------------            
+           |                                                                                            |
+    Descriptive                                                                                    Inferential
+        |                                                                             1. Infer or Inference
+Describe and                                                                        Exp:- What is average height of population of india ?
+organizing and summerizing the complete data
+
+Exp:-V.K.[100,0,10,5,100,10]
+ Average Score / Strike Rate
+ 
+ 
+ Descriptive:-
+ 1. Measure of central tendency (mean {Geometric mean, Harmonic mean},median,mode)
+ 2. Measure of Spread(Variance,Range,Percentile,Decile,Quartile,Inter-quartile,Box Plot)
+ 3. Measure of Symmetricity(Skewness,Kurtosis)
+ 
+ 
+ Inferential Statistics :-
+  Taking samples and analyzing that data and based on that predicting about general result.
+  
+*Sample* :- Subset of population from dataset 
+  of population.
+  Average height of population of INDIA
+  
+  Sampling Techmiques:-
+  
+  1.Simple random Sampling
+  2.Stratified Sampling
+  3.Cluster Sampling
+  4.Systematic Sampeling
+
+## 1 & 2 are widely used in industry and 3 & 4 are mostly used in research.  
+
+*Simple random Sampling* :- Data points are selected randomly s.t. each of this member of the population have equal probability(chance) of being selected.
+
+Exp:- Otp Generation, Ludo in Pc
+
+*Stratified random Sampling* :- "Strata"(groups or layers)
+                                It divides the population into different groups or layers and sample(elements) would be choosen from each strata randomly. Equal representation is advantage of this sample.
+
+Exp:- Member of Lokshabha in assembly election.                                
+                  
+                  
+*Clustering* :- It divides the population into groups or clusters and some of these clusters are randomly selected. All the individuals in the choosen clustor are selected to be in sample.
+Example :- Covid India 
+
+*Systematic Sampling* :- The data points will be selected systematically i.e. in a systematic way.
+
+Exp:-
+(i)Every n-th element would be selected. 
+(ii) Odd Roll No.   
+
+
+Comparision between descriptive and inferential Statistics:-
+
+Average height of population  but in inferential statistics sample average  height is 165 then is it true average height of population is 165?
+
+*Types of data*
+                                                                  
+                                                                                   Statistical Method 
+                                                                                           |
+                                                         --------------------------------------------------------------------------
+                                                         |                                                                        |
+                                                     Descriptive                                                             Inferential
+                                                        |                                                                       |
+                    -----------------------------------------------------------                         ---------------------------------
+                    |                          |                      |                                      |                       |
+              Univariate                    Bivariate               Multivariate                     Applied to mean    Applied to variance                          
+              (i)-Shape                      (i)-Co-relation         (i)- Heat Map               |=> z-test                       |=> F-test
+              (ii)-Centre                    (ii)- Regression     (ii)-Multiple LineaR Regression    |=> t-test                           |=> Anova-test
+             (iii)-Spread
+              (iv)-Mean,Medium,Mode
+              
+  *Types of data* :- Two types 
+   (i)- Quantitative Data(Numerical)
+  (ii)-  Qualitative Data(Categorical)
+  
+  Quantitative Data
+  |
+  |=> Discrete Data(Z-Integer) Exp:- No of children , No of employee, Employee in a team
+  |
+  |=> Continuous Data:- It can take any value in a range  
+  |
+  |=>Exp:- Height,Speed,I.Q., Movie Duration,Length
+  
+  Qualitative Data:- Categorical in nature
+  |
+  |=> Nominal:-No order in the categorical data 
+  |
+  |=> Exp;- Gender,Blood Group,Colour,Race,Marital Status
+  |
+  |=> Ordinal:- If  any natural  order in my categorical data 
+  |
+  |=> Exp:- Good ,Better,Best,Grade ,Salary (high,mean,medium)
+
+*Scale of measurement* :-
+
+
+Scale data:- Four types of scaling for data out of which two Nominal and Ordinal Scale Data is based on Categorical data (Qualitative side) and instead of these two Interval Scale data and ratio scale data 
+is  denoted as quantitative side.
+
+*Nominal Scale Data* :- For qualitative and categorical data and no order in the data 
+Exp:- Gender ,Colour,Location
+
+*Ordinal Scale Data* :- Order and rank matters and difference  can not be measured.
+Exp:- Performance of my fav students
+
+*Interval Scale Data*:- The rank and order have a meaning. Here rank and value both matters and difference canbe measured and it doesn't have zero starting point.
+
+Exp:- Length,width,height,teparature,Revenue of a company etc.
+
+*Ratio Scale Data* :- Order and rank has some meaning and difference and ratio are measurable. It does have a 0 starting point.
+
+Exp 1:- Inside the room = 30
+       Outside the room = 60  so ratio 1:2 ? Wrong u can not have ratio.
+       Why ? => Because it doeshave a zero starting point.
+       
+Exp 2:- Male:Female = 50:100 provided M=50 & F=100  
+
+Exp 3:- Length of Father's cloth =60 cm. & Length of Son's cloth =30 cm. ,Here it is a starting point 0 cm.
+
+Remark:- 1. Nominal + order = Ordinal
+         2. Ordinal + Difference making sense = Interval
+         3. Interval+ absolute zero starting point = Ratio
+
+
+*Types of Analytics*:-
+(i)-  Descriptive Analytics(Analyzing Complete Data)
+(ii)- Predictive Analytics (M.L.,D.L. ,FORECASTING IS EXAMPLE)
+(iii)-Prescriptive Analytics(That uses both to suggest some decision)
+
+Scenario(1) Vatsalya is CEO of an Airline Company . He wants to measure the performence of his company.Avg. delay, No. of passangers , Revenue.
+We will analyze complete data so descriptive analytics will be used here.
+K.P.I Dashboard , Monthly Renue Reports , Sales Leads Overview.
+
+Scenario(2) Scores of V.K. And what will he score in next match?
+We will do some average calculation of scorres and then we will predict the score for next innings. So here Predictive Analytics will be used here. 
+
+Scenario(1) What would be revenue in next quartile ?(Predictive Analytics )
+
+Scenario(3) V.K. Score- 58,56,68,75,67,0,1,0,0,1,1,0 suggestion given by Rahul Dravid will be based on prescreptive analytics.
+
+
+
+**Descriptive Statistics**:- Describe the data. It is that parts of statistics which helps you to summerize(Describe) the data without adding or substracting anything to the data.
+
+*Types of descriptive statistics* :-
+
+1. Measure of central tendency
+2. Measure of spread(dispersion)
+3. Measures of symmetricity.
+
+*Measure of central tendency* :- Mean, median , mode
+Exp:- 1,2,3,4,5 mean-3 & 3,3,3,3,3 mean-3 but both are different.
+
+*Measure of spread(dispersion)* :- For D1 data is not concentric to a single point but for D2 it is concentric to single point3.
+
+*Measures of symmetricity* :- If spread is same but symmetricity is different so we have skewness and kurtosis to analyze that.
