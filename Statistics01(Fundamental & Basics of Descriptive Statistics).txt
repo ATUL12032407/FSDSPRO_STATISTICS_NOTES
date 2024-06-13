@@ -119,8 +119,8 @@ Average height of population  but in inferential statistics sample average  heig
                     -----------------------------------------------------------                         ---------------------------------
                     |                          |                      |                                      |                       |
               Univariate                    Bivariate               Multivariate                     Applied to mean    Applied to variance                          
-              (i)-Shape                      (i)-Co-relation         (i)- Heat Map               |=> z-test                       |=> F-test
-              (ii)-Centre                    (ii)- Regression     (ii)-Multiple LineaR Regression    |=> t-test                           |=> Anova-test
+              (i)-Shape                      (i)-Co-relation         (i)- Heat Map                |=> z-test                    |=> F-test
+              (ii)-Centre                    (ii)- Regression     (ii)-Multiple LineaR Regression |=> t-test                   |=> Anova-test
              (iii)-Spread
               (iv)-Mean,Medium,Mode
               
