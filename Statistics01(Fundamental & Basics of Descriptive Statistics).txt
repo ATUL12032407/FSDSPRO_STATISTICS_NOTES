@@ -144,7 +144,7 @@ Average height of population  but in inferential statistics sample average  heig
   |
   |=> Ordinal:- If  any natural  order in my categorical data 
   |
-  |=> Exp:- Good ,Better,Best,Grade ,Salary (high,mean,medium)
+  |=> Exp:- Good ,Better,Best,Grade ,Salary (high,min,medium)
 
 *Scale of measurement* :-
 
@@ -166,7 +166,7 @@ Exp:- Length,width,height,teparature,Revenue of a company etc.
 
 Exp 1:- Inside the room = 30
        Outside the room = 60  so ratio 1:2 ? Wrong u can not have ratio.
-       Why ? => Because it doeshave a zero starting point.
+       Why ? => Because it does not have a zero starting point.
        
 Exp 2:- Male:Female = 50:100 provided M=50 & F=100  
 
