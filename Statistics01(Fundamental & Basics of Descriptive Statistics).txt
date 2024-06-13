@@ -207,6 +207,6 @@ Suggestion given by Rahul Dravid will be based on prescreptive analytics.
 *Measure of central tendency* :- Mean, median , mode
 Exp:- 1,2,3,4,5 mean-3 & 3,3,3,3,3 mean-3 but both are different.
 
-*Measure of spread(dispersion)* :- For D1 data is not concentric to a single point but for D2, it is concentric to single point3.
+*Measure of spread(dispersion)* :- For D1 data is not concentric to a single point but for D2, it is concentric to single point 3.
 
 *Measures of symmetricity* :- If spread is same but symmetricity is different so we use skewness and kurtosis to analyze the data.
