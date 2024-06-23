@@ -1,0 +1,169 @@
+**Measures of central tendency** :- One value around which data is revolving.It represents centre point of the data.
+Exp :- 1,2,3,4,5 
+ 
+ There are three types of central tendency.
+ 
+1. Mean :-  μ = ∑xi /N   where xi = sample data from the population and N is total number of sample data. μ is representation of population mean but x̄ represents the sample mean (i.e. mean of the sample data only).
+
+Exp:- μ=1+2+3+4+5/5 = 3
+
+*Remark*:-
+
+1. It is also called arithmetic mid value of data.
+
+2. Summing of all observations and dividing by no. of observations is average. 
+
+
+2. Median :- Median is nothing else just physical midpoint of the data.
+
+Exp 1:- 6,5,2,3,1,2  
+
+=>First thing sort the data to find the median after sorting 1,2,2,3,5,6 here count is even so median is average of two middle most elements. Hence median is 2+3/2=2.5
+
+Exp 2:-4,5,2,3,1 
+
+=>First thing sort the data to find the median after sorting 1,2,3,4,5 here count is odd so midding most value is median.
+
+In example 2 median value is 3
+
+Formula :- Median =  Average of { (n/2 +1)-th element , (n/2)-th element }if n is even
+
+What is meaning of physical mid point of the data & arithmetic mid value of the data?
+
+Ans:-We physically sort the data and choose the middle most element in median  but in arithmetic mid value of data there is scale on number line and we just take average value.
+
+*Industry use-case* :- Reliance board of directors.There is Sandeep, Abdulla, Deep. Can I write salary of board of this directors? 40,42,44,38 lacs but salary of Kapil is not there so H.R. will find average value then he will calculate and will find out Kapil's salary.If we add Mukesh Ambani with salary 500 lac then median comes into picture.
+
+
+Scenario-1:- 1,2,3,4,5 here average value is 3 but 1,2,3,4,100 here average value is 22 so difference in the mean value will not actually make sense because it is very very high it means is inflated by outliers but median is 3 in both of the cases.
+To avoid outliers we use median as central tendency but if outliers is not there then we can use mean as central tendency.
+
+How to calculate or deal with outliers??
+
+Ans:- Can we drop outliers always ? No we cann't drop here so what comes to rescue ? We will use median here.
+
+Application:- (i)- Subbu is married and he has  a beautiful daughter and she has friends 6 kids of 13-yrs and 5 kids of 1 years.(Refer lecture), avg. age- 7.6 yrs. Here mean calculation was correct but wrong understanding.
+
+Application:- (ii)-(Refer Lecture 1:11:10 hrs.)What will u impute here that make sense? 
+
+Mean & Median both will be used here.
+
+Remark:-1. Mean can change drastically or inflated due to presense of outliers. It represents arithmetic mean. 
+Remark:-2. Median will not be changed due to presense of outliers.
+
+3. Mode :- Mode is nothing but maximum frequency.Mode is the term appearing maximum times in the data.Mean and median is for numerical data but mode is for categorical data.We use frequency plot or bar chart.(Refer lecture 1:22:00 hrs.)
+
+Exp-1 :- 1,2,3,4,......999,999 Here 999 is mode value ?
+
+Exp-2 :- 1,2,3,4,5 no mode value
+
+Exp-3 :- 1,2,2,3,3,4,5 Here mode are 2,3 i.e. two mode so bi-modal value(See graph in lecture notes)
+
+Similarly multi-model data exist where multiple mode exists.
+
+*Types of mean* :-
+ 
+ (i)- Arithmetic mean=> μ = ∑xi /N 
+
+(ii)- Geometric mean=> It multiplies the number together and does square root,cube-root ,n-th root depending upon no. of data points.
+ Definition:- For n numbermultiply them all together and then take n-th root.
+ 
+ Ques:- Camera1 : Zoom-200 Review-8
+        Camera2 : Zoom-250 Review-6(Refer lecture)
+
+**To compare between two different properties of any object we take geometric mean of properties.        
+        
+(iii)- Harmonic mean =>The reciprocal of average of all reciprocals.(Refer lecture)
+ H.M. = n / [(1/a1)+(1/a2)+(1/a3)+…+(1/an)]
+
+
+
+Usecase :-
+
+(i)- In ML in confusion matrix FScore is nothin else but Harmonic mean of precision and recall. 
+
+(ii)- Aptitude Question
+
+Exp:- We travelled 10 km at 60 km/hr. and another 10 km at 20 km/hr. What is average speed?
+
+(iv)- Frequency Mean => Σfx / Σf (Refer Lecture Notes)
+
+ (v)- Weighted Mean => Σ(w)n(x̄)n/Σ(w)n (Refer Lecture Notes)
+
+*Weighted mean can be used where something are important as compared to others.
+
+* Measure of central tendency cannot say everything about the data.
+
+**Measures of spread/dispersion** :-(Refer Notes)
+
+  (i)- Range
+ (ii)- Percentile
+(iii)- Quartile(IQR, Box Plot)
+ (iv)- Variance
+  (v)- Standard Deviation
+
+(i)- Range:- Difference between max. & min value.
+
+Exp:- 1,2,3,4,.......,999,1000 Range is 1000-1 =999.
+
+*Outliers affect the range.
+
+(ii)- Percentage & Percentile :- A percentile is a value below which a certain percentage of observations lies.
+
+Exp:- 1,2,3,4,4,6,7,7,8,10 What is percentile rank of 3 ? = (No. of values below that no./ total numbers)*100
+
+=2/10*100 = 20-th percentile
+
+What value exists at 75-th percentile ?
+
+Value = (Percentile*(n+1))/100
+
+Here 8-th number = 7 will be 75-th percentile.
+
+Quartile :-  Quartiles are value that divides list of no. into quarters.Quarters are 4 equal parts.
+
+Exp:- 6,8,5,5,7,3,9 We firstly order the no. 3,5,5,6,7,8,9 
+1st  quartile = 5
+2nd  quartile = 6
+3rd  quartile = 8
+
+Exp:- 1,1,1(Q1),1,2,2(Q2),2,3,3(Q3),3,4 total count = 11
+ if count = odd             if count = even
+Q1 = (n+1)/4 -th  obser.   Q1 = n/4 -th  obser.
+
+Q2 = (n+1)/2 -th  obser.   Q2 = n/2 -th  obser.
+
+Q3 = 3(n+1)/4-th  obser.   Q3 = 3*n/4-th  obser.
+
+Q4 = 4*(n+1)/4-th obser.   Q4 = 4*(n+1)/4-th obser.
+
+Exp:- 1,2,3,3,4,4 Here Q1 = 6/4 =1.5
+
+**Q2  is mean or average.
+
+df.describe() - Gives all these things.(Five point summary of the data.)
+
+**Outliers always lies in either Q1 or Q4 because outliers are extreme values(much-much higher or much much lower).
+
+** Inter Quartile Range => Q3-Q1
+
+Exp:- 2,3,3,3,3,4,4,5,5,5,6,6,6,7,8,99
+
+Q1 = (25/100)*16 =4-th no. = 3  Q3 = 3*(25/100)*16 =12-th no. = 6
+
+I.Q.R. = Q3-Q1 = 6-3 =3
+
+**In Normal Distribution most of the data will lie in [Q1,Q3] around 68% i.e. in inter quartile range.
+
+**How to detect the outliers 
+ 
+ Lower Fence = Q1 -1.5* IQR
+ 
+ Upper Fence = Q1 +1.5* IQR
+ 
+ If data is below the Lower Fence and above the Upper Fence then that data value willbe outliers. 
+ Exp:- 2,3,3,3,3,4,4,5,5,5,6,6,6,7,8,99 
+
+***Whisker & Box Plot (Refer Graph & Notes)
+
+                  
