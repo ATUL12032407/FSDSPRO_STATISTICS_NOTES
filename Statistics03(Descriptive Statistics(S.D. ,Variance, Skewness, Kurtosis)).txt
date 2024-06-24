@@ -1,0 +1,112 @@
+**Agenda of the class :- 
+ 1. Variance , Mean Deviation , Standard Deviation 
+ 
+ 2. Measures of Symmetricity :- Skewness & Kurtosis
+ 
+ 3. Covariance & Co-relation
+ 
+**Measure of Spread :-
+ 
+ (i)- Mean Deviation:- Refer Pdf Notes
+       Formula :-Mean Deviation = [Σ |X – µ|]/N
+       
+       
+ (ii)- Variance:- The average of square distances from the mean.      
+ 
+ Variance Formulas for Grouped Data:-
+ 
+ The variance of a population for ungrouped data is:-   σ2 = ∑ (xi – x̄)2/n  
+ 
+ Where, x̄ is the mean of population data set  & n is the total number of observations
+ 
+ 
+**Formula for Sample Variance :-
+ 
+ Sample Variance Formula for Ungrouped Data (σ2) = ∑ (xi – x̄)2/(n-1)
+ 
+**How to calculate Variance :-  (Refer Pdf Notes)
+ 
+**Remark:- Spread of data increases whenever variance increases.
+ 
+**Standard Deviation :- S.D. is a measure of spread out data are. S.D. is square root of variance.Standard deviation is an standard way of knowing the deviation od data from mean value. There is no any usecase of variance in real life only thing is that spread is high.
+  394 + 147 = 541 and 394-147 = 247  See Notes for detail explanation of example.
+  
+** Usecase of Variance is to calculate S.D.  
+ 
+**Sometimes when we have - and + data then we use mean deviation but if mean deviation then why Standard deviation ? (See Exp for data D1 and D2  Pdf Notes for clarification)
+ 
+Ques :- Why N-1 is used in Variance formula for Sample Data ?? 
+  
+* This is sometimes called as Bessel Correction or unbiased estimator so  we use n-1 rather than n because sample variance will be unbiased estimator. (Now Refer Pdf Notes for detailed explanation.)
+
+**Sample will be always subset of population.
+
+We don't have access to population so we substracting xi-x̄.  In order to compensate that p.d. was supposed to be higher than s.d. but here it is not so we used N-1 to maintain the ratio because we are using sample distribution. 
+
+Why N-1 only ?
+
+To understand this we need to understand degree of fredom.
+
+**Degree of fredom :- Maximum no. of logical independent variables. We constraint one place depends only on rest N-1 numbers. 
+
+To be call anything as a sample atleast 1 element must be constant. So No of data points -1 is degree of freedom.
+
+
+** Measures of Symmetricity**:- 
+
+ (i)- Skewness
+(ii)- Kurtosis
+
+(i)- Skewness :- Skewness describes dataset symmetricity.IN case of Normal distribution mean=median=mode. When a dataset is symmetric in nature then skewness is 0 whenever data set is not symmetric then skewness is non-zero.
+
+How non-symmetric skew data looks like ?
+
+Skewness 0 whenever Q3-Q2=Q2-Q1 
+
+**Positive(Right)skewed data :- Whenever tail is on the right side of the distribution. It is also called right skewed data. 
+
+Exp:- Distribution of employee's Salary ,  Distribution of marks in difficult exam.
+
+**In Positive(Right)skewed data:- Mean>>Median>>Mode ,Median will lie between mode and mean because it is a physical midpoint.
+
+Reason for Positive(Right)skewed data ? 
+Ans :- Due to presense of outliers the distribution wants to accomodate the data. Q3-Q2>=Q2-Q1
+
+**Negative(Left)skewed data :- Whenever tail is on the left side of the distribution. It is also called left skewed data. 
+
+Exp:- Distribution of death rate,Distribution of marks in easy  exam , Wealth disributions.
+
+**Negative(Left)skewed data:- Mean<<Median<<Mode , Median will lie between mode and mean because it is a physical midpoint.
+
+Reason for Negative(Left)skewed data ? 
+Ans :- Due to presense of outliers the distribution wants to accomodate the data. Q3-Q2<=Q2-Q1
+
+Skewness formula:- No need to remember.
+
+  (i)- If skewness =0 then symmetric data.
+ (ii)- If skewness belongs [-1,-0.5]&[0,.5] then fairly symmetric data.
+(iii)- If skewness belongs [-1,-0.5]&[.5,1] then moderately skewed data.
+(iv)- If skewness <(-1) & >1 then highly skewed data.
+
+Why outliers cannot be used for ML algorithms ?
+
+It will assume that data as outliers and it will give wrong prediction so we want data to be symmetric.
+
+We use  Q-Q plot , Calculating skewness value.
+
+We use transformations :-
+
+(i)Treat the outliers.
+(ii) Box-plot transformation / Yeo Johnson
+(iii) Exponential Transformation
+(iv) Reciprocal Transformation
+(v) Log Transformation  (We will see in EDA feature engineering.)
+
+Moment :- (See pdf Notes)
+
+Mean :- On an average how much a specific value or data point lie away from the origin.
+
+Kurtosis :- Tail of the distribution or fatness of the tail.Peakness will always be there but kurtosis study of the fat and if we change the fattness is also gets changed.Kurtosis has nothing to do with skewness. If k>3 then Laptokurtic ,if k=3 mesokurtic and if k<3  then platykurtic for a normal distribution k=3.
+
+
+
