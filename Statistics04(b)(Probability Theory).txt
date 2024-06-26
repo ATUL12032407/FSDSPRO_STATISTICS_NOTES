@@ -1,0 +1,17 @@
+Probability is nothing but relative frequency.
+
+*Definition*:-(Refer Pdf Notes)
+
+*Properties :-
+
+(i)- 0<=P(A)<=1
+
+(ii)- Σ P(A)=1 
+
+(iii)- P(A U B)=P(A)+P(B)-P(A ∩ B)
+
+*Independent event means two event doesn't affect each other.Independent event can be disjoint but both are different.
+
+*Conditional Probability*:- P(A/B)=P(A ∩ B)/P(B) , P(B/A)=P(A ∩ B)/P(A)
+
+*If A and B are independent then P(A/B)=P(A)*P(B)
