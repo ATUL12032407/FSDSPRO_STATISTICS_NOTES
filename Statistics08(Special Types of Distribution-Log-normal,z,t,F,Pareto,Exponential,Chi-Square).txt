@@ -1,0 +1,76 @@
+*Zscore=(xi– µ)/σ/_/n
+
+Ques:-What if S.S.<30 ?
+
+*t-distribution:- Whenever S.S. is less than 30 then it is called t-distribution(Student t-distribution). t-score = (xi– µ)/s/_/n
+
+degree of freedom(ν)=n-1
+
+*Why ν = ∞ since if S.S.>=30 it follows normal distribution. As degree of freedom increases the distribution tends to normal distribution.
+
+** For standard normal distribution Zscore=(xi– µ)/σ/_/n 
+
+**What would be t-score?
+
+t-score=(xi– µ)/s/_/n where s is standard deviation of sample but σ is standard deviation of population.
+
+* Why normal distribution is like this and t-distribution is like this?
+
+Ans:- t-distribution have a thick tail but thick tail means the data is present at extreme.
+
+** |-|-|-|-|-|-|-|--|-|-|-|--|-|------|--|--|--|--|
+
+=>> Probability of falling any data point in the region are equal or S.S.>30 but if S.S.<30 it means data points are less in number it means there are high chances one or two data points will also fall at the extreme region w.r.t. all other 30 data points.
+
+|---|-------------|--|---|-----------------|---|
+
+* S.S.>= 30 it means data points at extreme is low as compare to general other points.
+
+* S.S.<30 it means no. of data points arelow means high chance will be found more in number at extreme as compare to fraction of  other points.
+
+**If S.S.<30 and σ-population is not given then we should use t-distribution.
+
+** Log-normal distribution:- A continuous distribution of a random variable whose logarithm is normally distributed.
+
+* If a right skewed data and we take log then if it follows normal distribution.
+
+Why log-normal is required ?
+
+Exp:- Wealth distribution of world. When  outliers can not be dropped then in order to make distribution as normal distribution we use log-normal distribution. χ ≍ log-normal(µ,σ^2).
+
+Exp:- Time spend in reading articles.
+
+Exp:- Pople write comments on your posts.
+
+** Power  Law Distribution(Pareto Principle):-(80:20)(Refer Pdf Notes) 20% of x will cover 80% of Y.
+
+** Exponential Distribution:- (Refer Pdf Notes)
+
+Exp:- Radioactive Decay, Life span of battery.
+
+** Chi-square Distribution:- The Chi-square Distribution is a probability distribution that describes the distribution of sum of squares of K-random variable.
+      degree of freedom(ν)=Sample Size-1
+      
+      if ν=1 then S.S.=2
+      
+(Refer Pdf Notes)      
+
+** Square------>Everything is +ve
+** Due to square the distribution pushes itself towards right side.
+
+** x<1 |    S.S.<4
+
+** If x<1 square becomes more and more smaller. It will be push towards origin.
+
+** Square of sum will always greater than square of individual numbers.So there will be a peak  value.
+
+**Use-case of Chi-square Distribution:-
+
+(i)- In M.L.(To compare two categorical variable)
+(ii)- In hypothesis testing
+
+** F- Distribution(Fisher Snedecor):- The F-distribution is a probability distribution that is useful in context of comparing variances of two or more samples. Itisright skewed takes only positive values. 
+
+Use-case of F-distribution :- 
+
+(i)- Compare two sample variance using F-test in sampling.
