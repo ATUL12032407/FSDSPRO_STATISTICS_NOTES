@@ -1,0 +1,103 @@
+Normal Distribution :- Most of the naturally occuring / human generated data follow a normal distribution.
+
+Empirical rule or figure :- 67.5%-95%-99.7% 
+
+It will help to understand the distribution of the data.
+
+It help us to know the outliers of data.
+
+Q1-Q3 we choose because maximum number of values lies between Q1-Q3(68%).Outliers will be low in proportion. Data lies outside -3σ and 3σ will be outliers.
+
+Exp:- Height of people , Weight of people , Measurement of error ,  Score of game , Blood Pressure.
+
+Remark:- Mean is not 0 and S.D. is not 1 in case of normal distribution.
+
+**Industry usecase of normal distribution:-
+
+1. Beyond 3-S.D. it help you to identify the outliers.
+
+2.Some ML. models required data to be normally distributed.Because most of natural data follow normal distribution.
+
+*We use multiple transformations in Data enginnering based on the nature of the data. 
+
+If you are modelling statistical ML Model then data should follow normal distribution and if not we do transformation mentioned below based on characteristic of data.
+
+
+Right skewed data:- Log /Square
+Left skewed data:- Reciprocal
+-ve Valued data:- Yeo Johnson 
++ve Valued data:- Box- cox transformation 
+Non-zero value:- Reciprocal transformation
+
+*Mean and S.D. can be any real numbers.
+
+*If N.D.-1 & N.D.-2 are two data points and N.D.-1 with mean 0 and s.d. =10 and if N.D.-2 with mean =100 and s.d. = 10.Which data is far away from µ ?
+
+*Ans:- We can't say anything because scales of both the distributions are not same.For comparision we need to standardize it.
+              We find Zscore (xi– µ)/σ and then this distribution is called standard normal distribution then we compare data D-1 & D-2.
+
+
+*Standard normal distribution :- A normal distribution with mean =0  and S.D. =1 is called standard normal distribution. Whichever data point have highest Zscore that data point will be far from mean(µ). 
+
+Ques:- (Refer pdf notes for Questions & Solutions), If Zscore is 3 it means the data point is 3SD far away from mean.But if Zscore is 10 it means the data point is  10SD far away from mean.  
+
+** Zscore=3 & σ=3  Zscore = 3 means data point is 3SD away from mean.But σ=3 means each and every data point is on an average is 3cm away from mean. 
+
+**If Zscore=20 & σ=3 then it means 60 units away from mean value if µ=50 then µ+σ will be 110.
+
+*Industry usecase of standard normal distribution:-
+
+1.Standardization
+2.For different scale data there will be no problem in prediction but learning parameter will also be very much vary in terms of scale.Scaling will be optional.
+
+**Scaling done in two ways:-
+
+1.Standardization(Outliers)
+2.Normalization(Min-max Scalar)
+
+xnorm= xi-xmin/xmax-xmin
+
+*Robust Scaling:- It removes the effect of outliers.
+
+Ques:- Why we use scaling?
+Ans:- We use for better interpretation and faster optimization(Gradient Descent).
+ 
+ *Central Limit Theoram:- It helps to convert irregular or haphasard distribution into normal distribution.It converts any form of distribution to the normal distribution.
+ 
+Exp:-(Refer Pdf Notes) 
+** C.L.T. states that if you have any population with µ & σ and  you take sufficiently large random sample from population with replacement then the distribution of sampling mean will be appromimately normally  distributed.
+
+** Sampling mean of population (µ,σ) will be approximately to a normal  distribution.
+
+Ques:- What is n? Why it happens? How many no. of sample should I take? What should be the value of n? What is usecase ?
+
+Ans:- n is sample size here(50 in exp of pdf notes.)
+
+**Condition of C.L.T:-
+
+1.The sample size should be large enogh.
+
+2.The sample size equal to and greater than 30(except if population is already in normal distribution.)
+
+3.n>=30 because sampling mean follow Z-distribution. Zscore (xi– µ)/σ/_/n 
+
+4. Take large number of sample as much as large untill approximation becomes normal distribution.
+
+** Zscore (xi– µ)/σ If sample size <30 then it will follow t-distribution. If we apply C.L.T. to this distribution then  Zscore (xi– µ)/σ/_/n and then this distribution is called z-distribution provided sample size >=30 and if <30then it will called t-distribution.
+
+Ques:- Why µ= µ and σ= σ/_/n ?
+
+Ans:- µ= µ because the distribution will be replicated only so mean will be the mean itself. σ= σ/_/n because for sufficiently large sample size after applying C.L.T. it will follow standard normal distribution because we assumed µ=1 (in pdf notes example).  
+
+Ques:-(Refer pdf notes)
+
+Kurtosis:- There are three types of kurtosis.
+
+(i)-Leptokurtic(k>3)
+(ii)-Mesokurtic(k=3)
+(iii)-Platykurtic(k<3)
+
+*σ - is for population and we are using  to calculate Zscore but here we are using standardised.
+ 
+
+
