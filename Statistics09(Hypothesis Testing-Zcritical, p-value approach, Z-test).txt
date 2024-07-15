@@ -1,0 +1,115 @@
+*Inferential Statistics :- We estimate something about population using sample.
+
+Exp:- (Refer Pdf Notes)
+
+Population----> Sample--------> Sample Mean------->Infer------> Population 
+
+I.e. we are infering something about population parameter using sample statistics.
+
+*Ques:- How much this inference is true ?
+Ans :- You will pose some doubt.You will avoid saying a specific number.
+
+** Point estimate and Interval Estimate :-
+
+Exp:- Marks of Dishant and Jharna if single point is given then point estimate and if interval or range is given then Interval estimate.
+
+(ii)- Marks distribution of whole class.
+
+** Avg. salary of IT employee in India is 15 lac.
+
+    |
+  ....... Statement ...... Claim(Hypothesis)
+  
+Hypothesis :- It is a claim /predictive /generic  statement, capable of being tested by scientific method.  
+
+Exp:-Avg. age of students in a class of IIT is 23 years.
+
+Exp:- Consumption of ice-cream sales increases in summer.
+
+Exp:- Student who receive counselling will show greater increase in performance.
+
+Exp:- There is tons of water on pluto.
+
+Exp:- In Swarglok we will go after we die.
+
+Exp:- In Patal Lok Shesh-nag lives.
+
+Ans:- (i),(ii),(iii).
+
+Sachin:- Average age of deloitte employee is 45 years.
+
+Alok:-Alok takes sample of 20 people and he calculates that average age of deloitte employee is 49 years.
+
+Agrim:-Agrim takes sample of 20 people and he calculates that average age of deloitte employee is 62 years.
+
+Ruchika:-Ruchika takes sample of 2000 people and he calculates that average age of deloitte employee is 49 years.
+              |
+______________|______________
+=> Highest no. of samples=2000 so x̄=49 
+
+
+Ques:- How much doubt you will have on all of these people?
+
+
+(i)-Null Hypothesis:- Null hypothesis is a statement that is hold true unless we have sufficient statistical evidence to reject it.
+
+(ii)- Alternate Hypothesis:- It is opposite(negation) of null hypothesis. 
+
+Ho : Avg age is 45 years.
+
+Ha : Avg age is not 45 years.
+
+**Framing of hypothesis:- (i)- Mathematically (ii)- General Problem Cases
+
+Claim/Statement:-Average age of deloitte employee is atleast 45 years.
+
+µage>= 45  µage< 45 
+
+Ho: µage>= 45
+Ha: µage< 45
+
+Statement:- Average age of deloitte employee is greater than 45 years.
+
+µage> 45  µage<= 45 
+
+Ho: µage> 45
+Ha: µage<= 45  (Wrong Interpretation In this case this will not be null hypothesis)
+
+Why it is wrong?What is the correct one?
+
+Ho: µage<= 45
+Ha: µage> 45 
+
+** Whichever statement have equal sign that will be your null hypothesis.
+
+Why ? 
+
+Exp:-  µage of employee 
+Now µage>45 &
+** It is wrong when sample's average is very very far from average.
+
+Now µage>45 & µage<=45 if  µage>45 will be null hypothesis then area without 45.So we need to include the central point in order to disprove something.So µage>45 is Ha & µage<=45 is Ho.
+
+**General Practical use-case:- Let there is a  Social Trail.(Agrim & Ayush and Ayush has stolen something from Agrim.So Ayush is now being taken to the court. So  Whatever gnerally happens is Ho so here Everyone is innocent untill proven guilty so here Null Hypothesis will be "Ayush is innocent". Now lawyer of opposite side will brong some evidence to prove that Ayush is not innocent.)
+
+Exp:- Medical Test For a Cancer Test :-
+
+Ho :- He has not cancer.
+Ha :  He has cancer.
+
+-----------------------------------------------------------------------------24-March Lecture------------------------------------------------------------------
+
+
+
+*To Be Continue*
+
+Import for data & Business Analyst:-
+
+(i)- Descriptive Statistics
+(ii)- Hypothesis Testing 
+
+*Level of significance & Confidence :- (Refer Pdf Notes)
+
+..
+
+
