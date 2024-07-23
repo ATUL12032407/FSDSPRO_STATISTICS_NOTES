@@ -75,7 +75,7 @@ Exp:-V.K.[100,0,10,5,100,10]
   of population.
   Average height of population of INDIA
   
-  Sampling Techmiques:-
+  Sampling Techniques:-
   
   1.Simple random Sampling
   2.Stratified Sampling
