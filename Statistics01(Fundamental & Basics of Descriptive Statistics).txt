@@ -108,7 +108,7 @@ Comparision between descriptive and inferential Statistics:-
 
 Average height of population  but in inferential statistics sample average  height is 165 then is it true average height of population is 165?
 
-*Types of data*
+
                                                                   
                                                                                    Statistical Method 
                                                                                            |
